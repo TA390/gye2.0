@@ -47,6 +47,6 @@ group :production do
   # Used by Heroku to serve static assets 
   # such as images and stylesheets
   # ADDED: 1/3/15
-  gem 'rails_12factor', '0.0.2'
+  gem 'rails_12factor'
 end
 
