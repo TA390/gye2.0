@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @ngo.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @ngo.email %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @ngo.status %>
+</p>
+
+<%= link_to 'Edit', edit_ngo_path(@ngo) %> |
+<%= link_to 'Back', ngos_path %>
